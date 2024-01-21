@@ -7,7 +7,7 @@
 
 body {
   min-height: 100vh;
-  background: url('Airlock\ Invitation.jpg') no-repeat;
+  background: url('Airlock Invitation.jpg') no-repeat; 
   background-size: cover;
   background-position: center;
 }
@@ -41,12 +41,12 @@ body {
   margin-left: 40px;
 }
 
-.navbar a ::before {
+.navbar a::before {
   content: '';
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%;
+  width: 0;
   height: 2px;
   background: #fff;
   transition: .3s;
